@@ -1,0 +1,66 @@
+# =====================
+# macOS system files
+# =====================
+.DS_Store*
+
+# =====================
+# Python cache & bytecode
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+CACHEDIR.TAG
+
+# =====================
+# Jupyter
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# Logs
+# =====================
+*.log
+
+# =====================
+# Virtual environments
+# =====================
+.venv/
+env/
+venv/
+
+# =====================
+# IDEs
+# =====================
+.idea/
+.vscode/
+
+# =====================
+# Python packaging / build artifacts
+# =====================
+build/
+dist/
+*.egg-info/
+
+# =====================
+# Coverage / test reports
+# =====================
+.coverage
+htmlcov/
+
+# =====================
+# Environment / secrets
+# =====================
+.env
+.env.*
+
+# =====================
+# Streamlit specific
+# =====================
+.streamlit/secrets.toml
+
+# =====================
+# OS-specific files
+# =====================
+Thumbs.db
