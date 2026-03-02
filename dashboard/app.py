@@ -37,6 +37,11 @@ unit = unit_map.get(metric, "")
 chart = alt.Chart(df_metric).mark_bar().encode(
     x=alt.X('city:N', title='City'),
     y=alt.Y('value:Q', title=f'{metric} ({unit})'),
+    color=alt.condition(
+        alt.datum.city == city,
+        alt.value("orange"),
+        alt.value("lightgray")
+    ),
     tooltip=['city', 'month', alt.Tooltip('value:Q', title=f'Value ({unit})')]
 )
 
@@ -64,6 +69,11 @@ chart = alt.Chart(df_latest_weather).mark_bar().encode(
     x=alt.X('city:N', title='City'),
     y=alt.Y(f'{weather_metric}:Q',
             title=f'{weather_metric.capitalize()} ({unit})'),
+    color=alt.condition(
+        alt.datum.city == city,
+        alt.value("orange"),
+        alt.value("lightgray")
+    ),
     tooltip=[
         alt.Tooltip('city:N', title='City'),
         alt.Tooltip(f'{weather_metric}:Q', title=f'Value ({unit})')
