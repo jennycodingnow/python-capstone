@@ -1,0 +1,51 @@
+city,metric,month,value
+New York,Hottest Month,July,77.0
+New York,Coldest Month,January,34.0
+New York,Wettest Month,July,4.83
+New York,Windiest Month,January,13.0
+New York,Annual precip.,Unknown,50.1
+Paris,Hottest Month,July,68.0
+Paris,Coldest Month,January,40.0
+Paris,Wettest Month,May,2.79
+Paris,Windiest Month,February,17.0
+Paris,Annual precip.,Unknown,23.74
+Hong Kong,Hottest Month,July,86.0
+Hong Kong,Coldest Month,January,63.0
+Hong Kong,Wettest Month,August,8.95
+Hong Kong,Windiest Month,March,19.0
+Hong Kong,Annual precip.,Unknown,48.2
+Honolulu,Hottest Month,August,82.0
+Honolulu,Coldest Month,January,74.0
+Honolulu,Wettest Month,December,2.55
+Honolulu,Windiest Month,July,22.0
+Honolulu,Annual precip.,Unknown,17.34
+San Francisco,Hottest Month,September,65.0
+San Francisco,Coldest Month,December,51.0
+San Francisco,Wettest Month,December,4.3
+San Francisco,Windiest Month,June,24.0
+San Francisco,Annual precip.,Unknown,19.86
+Seoul,Hottest Month,August,79.0
+Seoul,Coldest Month,January,27.0
+Seoul,Wettest Month,August,6.09
+Seoul,Windiest Month,April,13.0
+Seoul,Annual precip.,Unknown,28.01
+Sydney,Hottest Month,January,75.0
+Sydney,Coldest Month,July,56.0
+Sydney,Wettest Month,February,4.79
+Sydney,Windiest Month,December,25.0
+Sydney,Annual precip.,Unknown,39.3
+London,Hottest Month,July,66.0
+London,Coldest Month,January,41.0
+London,Wettest Month,October,2.95
+London,Windiest Month,February,19.0
+London,Annual precip.,Unknown,24.55
+Moscow,Hottest Month,July,67.0
+Moscow,Coldest Month,January,20.0
+Moscow,Wettest Month,July,3.29
+Moscow,Windiest Month,March,6.0
+Moscow,Annual precip.,Unknown,27.7
+Dubai,Hottest Month,August,98.0
+Dubai,Coldest Month,January,68.0
+Dubai,Wettest Month,January,0.49
+Dubai,Windiest Month,July,16.0
+Dubai,Annual precip.,Unknown,2.14

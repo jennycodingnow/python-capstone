@@ -1,0 +1,11 @@
+city,current_temp,date,humidity,wind,forecast
+New York,30,2026-03-02,36,3,Clear
+Paris,43,2026-03-02,81,7,Clear
+Hong Kong,79,2026-03-02,79,10,Scattered clouds
+Honolulu,76,2026-03-01,80,3,Partly cloudy
+San Francisco,57,2026-03-01,83,9,Low clouds
+Seoul,41,2026-03-02,93,13,Light rain. Cloudy
+Sydney,81,2026-03-02,66,20,Sunny
+London,48,2026-03-02,82,9,Clear
+Moscow,33,2026-03-02,97,0,Fog
+Dubai,86,2026-03-02,24,8,Sunny
